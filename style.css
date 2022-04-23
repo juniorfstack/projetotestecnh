@@ -1,0 +1,147 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+.header-top
+{
+	display: block;
+ position: fixed;
+  width:100%;
+  height: 50px;
+  box-shadow:  0 0 10px #cfcfcf;
+ 
+}
+
+.main-container
+{display: flex;
+height: 720px;
+flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ border: solid 1px red;
+}
+.box-choose
+{width: 60%;
+justify-content: center;
+align-items: center;
+border: solid 1px red;
+}
+.card
+{margin-top: 20px;
+display: flex;
+cursor: pointer;
+border-radius: 20px;
+border-bottom: solid 1px #e5e5e5;
+border: solid 1px red;
+}
+.card:hover
+{box-shadow: 0 0 10px #3683d3;
+}
+.answer-txt
+{width: 90%;
+margin: 8px;
+
+}
+.answer-txt span
+{font-size: 20px;
+font-family: 'Roboto', sans-serif;
+}
+.ask_text_box h2
+{margin: 3px;
+font-family: 'Roboto', sans-serif;
+border: solid 1px red;
+}
+.ask_text_box h1
+{margin-right: 10px;
+font-family: 'Roboto', sans-serif;
+border: solid 1px red;
+font-size: 52px;
+}
+.ask_text_box
+{display: flex;
+justify-content: center;
+align-items: center;
+border: solid 1px red;
+width: 70%;}
+
+.letter h2
+{font-size: 35px;
+font-family: 'Roboto', sans-serif;
+color: white;
+}
+.letter
+{display: flex;
+justify-content: center;
+align-items: center;
+width: 10%;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}.a
+{background-color:#1acbaa;
+}
+.b
+{background-color:#ff6565; 
+}
+.c
+{background-color:#8bff65;
+}
+.d
+{background-color:#62b9ff;
+}
+#btn-proximo
+{background-color: red;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}#btn-anterior
+{background-color: red;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+cursor: pointer;
+}
+.selecao
+{background-color: rgb(129, 97, 247);
+}
+
+@media screen and (max-width: 700px)
+{
+.ask_text_box h1 {
+font-size: 20px;
+}
+.ask_text_box h2
+{font-size: 15px;
+}
+.answer-txt span{
+font-size: 10px;
+font-family: 'Roboto', sans-serif;}
+
+.letter h2
+{font-size: 10px;
+}
+
+.box-choose
+{width: 90%;
+}
+
+.ask_text_box
+{width: 90%;
+}
+
+.letter
+{border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.card
+{height: 60px;
+}
+
+.main-container
+{height: 500px;
+}
+
+}
